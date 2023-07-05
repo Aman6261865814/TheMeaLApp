@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background: rgb(45,32,19);
+    color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* navigation bar */
+.navigation {
+    background-color: rgb(35,24,13);
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -100px;
+    margin-right: -100px;
+    font-size: 20px;
+}
+.navigation a{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#web-logo{
+    border-radius: 50%;
+}
+#facebook-logo{
+    border-radius: 20%;
+}
+.navigation div a{
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 25px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.navigation a :hover{
+    color: #dddd;
+}
+
+/*code for horizontal row */
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 40px;
+    font-family:serif;
+}
+
+#image{
+    margin-top:5px;
+    border:2px solid white;
+}
+
+#mealName{
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+#instruction{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#list{
+    font-size: 20px;
+    line-height: 150%;
+    list-style-type: none;
+}
+
